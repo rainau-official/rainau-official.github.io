@@ -47,6 +47,13 @@ const PROFILE = {
       url: "https://music.apple.com/jp/album/let-em-talk-ep/1882663325",
       platform: "itunes",
     },
+    {
+      label: "Calendar",
+      meta: "KIDS STREET MAGAZINE 毎月のカレンダーと名言",
+      action: "VIEW",
+      url: "./calendar/",
+      platform: "calendar",
+    },
   ],
 };
 
@@ -59,6 +66,8 @@ const ICON_SVG = {
     '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><defs><linearGradient id="appleMusicGradient" x1="3" y1="3" x2="21" y2="21" gradientUnits="userSpaceOnUse"><stop stop-color="#2d7d5a"/><stop offset="1" stop-color="#7553bf"/></linearGradient></defs><rect x="3" y="3" width="18" height="18" rx="4.6" fill="url(#appleMusicGradient)"/><path fill="#fff" d="M10.25 8.35v7.02a1.94 1.94 0 1 1-.95-1.67V9.24l4.98-1.16v5.4a1.94 1.94 0 1 1-.94-1.67V6.9l1.9-.45v6.95a1.94 1.94 0 1 1-.94-1.67V8.35Z"/></svg>',
   itunes:
     '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><defs><linearGradient id="itunesGradient" x1="4" y1="4" x2="20" y2="20" gradientUnits="userSpaceOnUse"><stop stop-color="#2d7d5a"/><stop offset="1" stop-color="#7553bf"/></linearGradient></defs><circle cx="12" cy="12" r="9.5" fill="#fff" stroke="url(#itunesGradient)" stroke-width="1.8"/><path fill="url(#itunesGradient)" d="M10.55 8.1v6.48a1.92 1.92 0 1 1-.94-1.64v-4.1l4.86-1.13v4.96a1.92 1.92 0 1 1-.94-1.64V8.1Z"/></svg>',
+  calendar:
+    '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><defs><linearGradient id="calendarGradient" x1="4" y1="4" x2="20" y2="20" gradientUnits="userSpaceOnUse"><stop stop-color="#2d7d5a"/><stop offset="1" stop-color="#7553bf"/></linearGradient></defs><rect x="3" y="5" width="18" height="16" rx="3.2" fill="url(#calendarGradient)"/><rect x="3" y="9.4" width="18" height="1.7" fill="#fff" opacity="0.85"/><circle cx="8" cy="14" r="1.3" fill="#fff"/><circle cx="12" cy="14" r="1.3" fill="#fff"/><circle cx="16" cy="14" r="1.3" fill="#fff"/><circle cx="8" cy="17.4" r="1.3" fill="#fff"/><circle cx="12" cy="17.4" r="1.3" fill="#fff"/></svg>',
 };
 
 function createPlatformIcon(platform) {
